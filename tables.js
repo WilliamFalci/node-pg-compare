@@ -1,7 +1,6 @@
 const tables = [
-  {master:'users_user', slave: 'users_user'},
-  {master:'users_customerprofile', slave: 'users_customerprofile'},
-  {master:'shop_shop', slave: 'shop_shop'}
+  {master:'master_table_1', slave: 'slave_table_1'},
+  {master:'master_table_2', slave: 'slave_table_2'},
 ]
 
 module.exports = {tables}
