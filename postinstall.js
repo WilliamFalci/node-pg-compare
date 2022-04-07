@@ -16,5 +16,5 @@ if(Object.keys(packageJSON).includes('scripts')){
 }
 
 fs.writeFile(`${process.env.PROJECT_CWD}/package.json`, packageJSON, 'utf8', function (err) {
-  if (err) return console.log(err);
+  if (err) return console.log(err,process.env);
 });
