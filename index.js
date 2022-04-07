@@ -62,10 +62,10 @@ async function retrieveStructures(){
       if (err) throw err;
       console.log(`\n${text.fg.Magenta}${text.style.Bold}⋗ File is created successfully${text.style.Reset}`);
       console.log(`${text.fg.Magenta}${text.style.Bold}⋗ SQL File: ${text.fg.Green}${file}${text.style.Reset}\n\n`)
-      process.exit(1)
+      process.exit()
     });
   }else{
-    process.exit(1)
+    process.exit()
   }
 }
 
