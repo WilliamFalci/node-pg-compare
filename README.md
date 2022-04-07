@@ -28,5 +28,6 @@
 
 - Open ```tables.js```
 - Inside the object ```tables``` insert the master's table name and the slave table's name to check example ```{master: 'master_table_user', slave: 'slave_table_user'}```
+- Copy ```blank.env``` name it ```.env``` and apply your connection details
 - Run ```yarn pg-compare```
 - Enjoy
