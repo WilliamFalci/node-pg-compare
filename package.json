@@ -4,7 +4,7 @@
   "description": "Comparation Tool",
   "main": "index.js",
   "author": "Falci William Peter",
-  "license": "GNU GPL V3",
+  "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
     "url": "https://github.com/WilliamFalci/node-pg-compare"
