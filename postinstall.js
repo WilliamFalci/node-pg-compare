@@ -15,8 +15,6 @@ if(Object.keys(packageJSON).includes('scripts')){
   packageJSON.scripts.pgc_compare = "yarn --cwd ./node_modules/node-pg-compare pgc-compare"
 }
 
-console.log(packageJSON)
-console.log(packageJSON.toString())
-fs.writeFile(`${process.env.INIT_CWD}/package.json`, packageJSON, 'utf8', function (err) {
+fs.writeFile(`${process.env.INIT_CWD}/package.json`, JSON.stringify(packageJSON), 'utf8', function (err) {
   if (err) return console.log(err,process.env);
 });
