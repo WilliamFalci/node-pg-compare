@@ -9,10 +9,12 @@ let packageJSON = JSON.parse(packageRawData);
 if(Object.keys(packageJSON).includes('scripts')){
   packageJSON.scripts.pgc_tables = "yarn --cwd ./node_modules/node-pg-compare pgc-tables"
   packageJSON.scripts.pgc_compare = "yarn --cwd ./node_modules/node-pg-compare pgc-compare"
+  packageJSON.scripts.pgc_env = "yarn --cwd ./node_modules/node-pg-compare pgc-env"
 }else{
   packageJSON.scripts = {}
   packageJSON.scripts.pgc_tables = "yarn --cwd ./node_modules/node-pg-compare pgc-tables"
   packageJSON.scripts.pgc_compare = "yarn --cwd ./node_modules/node-pg-compare pgc-compare"
+  packageJSON.scripts.pgc_env = "yarn --cwd ./node_modules/node-pg-compare pgc-env"
 }
 
 fs.writeFile(`${process.env.INIT_CWD}/package.json`, JSON.stringify(packageJSON), 'utf8', function (err) {
