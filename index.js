@@ -65,6 +65,7 @@ async function retrieveStructures(){
       process.exit()
     });
   }else{
+    console.log(`\n${text.fg.Magenta}${text.style.Bold}⋗ No Differences Found${text.style.Reset}\n\n`);
     process.exit()
   }
 }
