@@ -1,4 +1,6 @@
 # <p align="center">NODE PG COMPARE</p>
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWilliamFalci%2Fnode-pg-compare.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FWilliamFalci%2Fnode-pg-compare?ref=badge_shield)
+
 ##### <p align="center">Created with love from Italy :green_heart::white_heart::heart:</p>
 
 ## Global Requirements
@@ -39,3 +41,6 @@
 - Then run ```yarn/npm pgc_tables```, inside the object ```tables``` insert the master's table name and the slave table's name to check example ```{master: 'master_table_user', slave: 'slave_table_user'}```
 - Run ```yarn pgc-compare```
 - Enjoy
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWilliamFalci%2Fnode-pg-compare.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FWilliamFalci%2Fnode-pg-compare?ref=badge_large)
